@@ -1,4 +1,4 @@
-from modelos.modelos import ConversionFormatoAudio, Estado, db
+from ..modelos.modelos import ConversionFormatoAudio, Estado, db
 import os
 import subprocess
 import shutil
@@ -7,7 +7,7 @@ import boto3
 import json
 import time
 from botocore.exceptions import NoCredentialsError
-from logger import Logger
+from ..logger import Logger
 
 ACCESS_KEY = 'AKIA3ML4UTNPTEQO5ONO'
 SECRET_KEY = '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'
